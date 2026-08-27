@@ -113,29 +113,3 @@ footer {
     text-align: center;
     padding: 20px;
 }
-
-
-/* DISEÑO PARA CELULARES */
-
-@media (max-width: 600px) {
-
-    nav ul {
-        gap: 15px;
-    }
-    nav img {
-        width: 65px;
-        height: 65px;
-    }
-    table {
-        width: 100%;
-        font-size: 12px;
-    }
-    th,
-    td {
-        padding: 8px;
-    }
-
-    .informacion {
-        width: 90%;
-    }
-}
