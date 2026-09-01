@@ -113,3 +113,9 @@ footer {
     text-align: center;
     padding: 20px;
 }
+
+strong{
+    color: red;
+    font-size: 26px;
+    padding: 5px;
+}
