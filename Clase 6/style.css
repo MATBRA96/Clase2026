@@ -168,3 +168,54 @@ strong{
     color: red;
     font-size: 18px;
 }
+
+body{
+    background-color: lightblue;
+}
+
+.container2{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.encabezado{
+    background: blue;
+    background: linear-gradient(90deg,rgba(224,247,255,0)0%,rgba(87,199,133,1)50%,rgba(237,211,83,1)100%);
+    width: 500px;
+    height: 350px;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+label{
+    color: black;
+    font-size: 14px;
+    margin: 5px;
+    text-align: center;
+    font-style:italic;
+}
+
+form label, form input, form button{
+    display: block;
+}
+
+input{
+    border: 1px solid grey;
+    background-color: rgba(128,128,128,1);
+    border-radius: 5px;
+    width: 100%;
+    height: 25px;
+    padding: 5px;
+}
+
+button{
+    border: solid skyblue;
+    background-color: skyblue;
+    border-radius: 5px;
+    width: 100%;
+    height: 50px;
+    margin-top: 50px;
+}
